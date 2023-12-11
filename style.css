@@ -1,5 +1,11 @@
 @charset "UTF-8";
+/*
+#945C16
+#D7A337
+ #F7ED89
 
+ main e header mesma cor, e copiar a paleta de algum site
+*/
 *{
     margin: 0px;
     padding: 0px; 
@@ -14,11 +20,11 @@ header {
     max-width: 1280px;
     display: block;
     margin: auto;
-    color: #458A73;
+    color: #5956318c;
     margin-bottom: 20px;
     padding-top: 50px;
     padding-bottom: 2px;
-    background-image: linear-gradient(to bottom, #7fffd483, #6EDBB7, #59B395);
+    background-image: linear-gradient(to bottom, #d7a237b7, #F7ED89);
     font-size: 1.2em;
     border-radius: 10px;
 }
@@ -50,7 +56,7 @@ main {
     padding-bottom: 1px;
    /* margin-bottom: 15px; */
     max-width: 1300px;
-    background-color: #59b39517;
+    background-color: #d7a2371e;
     border-radius: 10px;
 }
 main > h1 {
@@ -66,7 +72,7 @@ main > h1 {
 div {
     display: inline-block;
     margin: 8px 8px;
-    background-color: rgba(186, 248, 227, 0.384);
+    background-color:#f7d8882a;
     width: 240px;
     border-radius: 15px;
 }
