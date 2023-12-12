@@ -12,6 +12,8 @@
     --cor2: #5a633125;
     --cor3: #6F7A50;
     --cor4: #f4ce64;
+    --cor5: #fcfced;
+    --cor6: #eeeee0;
 }
 
 @font-face {
@@ -42,7 +44,7 @@ header {
     margin-bottom: 20px;
     padding-top: 50px;
     padding-bottom: 2px;
-    /*background-image: linear-gradient(to bottom, #d7a237b7, #F7ED89);*/
+   
     font-size: 1.2em;
     border-radius: 10px;
 }
@@ -59,7 +61,7 @@ nav {
     border-radius: 12px;
     max-width: 1280px;
     padding: 13px 5px; 
-    background-image: linear-gradient(to right, #fcfced, #eeeee0,  var(--cor1));    
+    background-image: linear-gradient(to right, var(--cor5), var(--cor6),  var(--cor1));    
 }
 nav > a {
     color: var(--cor3);
@@ -77,7 +79,6 @@ nav > a:hover {
 main {
     margin: auto;
     padding-bottom: 1px;
-   /* margin-bottom: 15px; */
     max-width: 1400px; /*era 1280px*/
     background-color: var(--cor1);
     border-radius: 10px;
@@ -92,14 +93,13 @@ main > h1 {
     margin-top: 60px;
     margin-bottom: 30px;
     padding-top: 15px;
-   /* background-image: linear-gradient(to right, #7fffd483, #59b39517); */
     border-radius: 10px;
-    background-image: linear-gradient(to right, var(--cor1),var(--cor1), #fcfced, var(--cor1), var(--cor1));  
+    background-image: linear-gradient(to right, var(--cor1),var(--cor1), var(--cor5), var(--cor1), var(--cor1));  
 }
 div {
     display: inline-block;
     margin: 8px 8px;
-    background-image: linear-gradient(to bottom, var(--cor2), #fcfced,  var(--cor2));
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor5), var(--cor2));
     width: 240px;
     border-radius: 15px;
 }
@@ -114,14 +114,21 @@ img {
     height: 150px;
 }
 main > p { 
-    margin-bottom: 30px;
-    margin-top: 50px;
-    padding-bottom: 8px;
+    margin-top: 0px;
+    margin-bottom: 17px;
+    padding-bottom: 2px;
+    font-size: 20px;
 }
 #qr {
-    width: 384px;
-    height: 393px;
+    width: 400px;
+    height: 400px;
+    padding: 0px;
+    margin-top: 0px;
 }
+iframe {
+    margin: 20px 0px 33px;
+    width: 1000px;
+ }
 .botao {
     background-color: var(--cor3);
     color: white;
@@ -142,10 +149,9 @@ main > p {
     padding: 8px;
     color: white;
     font-size: 1em;
+    margin-top: 12px;
  }
- iframe {
-    margin: 46px 0px 102px;
- }
+ 
  
  /*   TUDO DO INDEX AQUI ABAIXO
  
