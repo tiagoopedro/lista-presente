@@ -12,7 +12,7 @@
     --cor2: #5a633125;
     --cor3: #6F7A50;
     --cor4: #f4ce64;
-    --cor5: #fcfced;
+    --cor5: #fcfced93; /*alterei a transparencia*/
     --cor6: #eeeee0;
 }
 
@@ -97,7 +97,7 @@ main > h1 {
     margin-bottom: 30px;
     padding-top: 15px;
     border-radius: 10px;
-    background-image: linear-gradient(to right, var(--cor1),var(--cor1), var(--cor5), var(--cor1), var(--cor1));  
+    background-image: linear-gradient(to right, #e4e4d86e,var(--cor1), var(--cor5), var(--cor1), #e4e4d86e);  
 }
 div {
     display: inline-block;
