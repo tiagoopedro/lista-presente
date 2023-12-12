@@ -30,11 +30,14 @@
 }
 
 /*
-MUDAR AS FONTES DOS H1 E NAV TAMBEM
-AJUSTAR O TAMANHO DO QR CODE E DOS IFRAMES PARA FICAR UM TAMANHO BOM NA PAGINA
+AJUSTAR O TAMANHO DOS IFRAMES PARA CELULAR MEDIA QUERY
+E O FOOTER FICOU ERRADO NOS CELULARES
 */
 body {
-    background-color: var(--cor1);
+    background-image: url('imagens/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 header {
     max-width: 1400px; /*era 1280px*/
@@ -80,7 +83,7 @@ main {
     margin: auto;
     padding-bottom: 1px;
     max-width: 1400px; /*era 1280px*/
-    background-color: var(--cor1);
+    background-color: none;
     border-radius: 10px;
 }
 main > h1 {
