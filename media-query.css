@@ -15,7 +15,7 @@ Grandes telas: acima de 1200px
     }
     iframe {
         margin: 20px 0px 33px;
-        height: 281px; /*ajustando */
+        height: 300px; /*ajustando */
         width: 400px;
      }
      #qr {
@@ -51,7 +51,7 @@ Grandes telas: acima de 1200px
  }
  @media screen and (min-width: 992px) {
     nav {
-        display: block;
+        display: block; /*mostrar o nav e esconder o i#burguer*/
     }
     i#burguer {
         display: none;
