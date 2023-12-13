@@ -177,7 +177,7 @@ i#burguer > img {
     padding: 4px; /*testar e descobrir o tamanho ideal*/
 }
 nav {
-    display: block; /*para esconder o menu na versao mobile*/
+    display: none; /*para esconder o menu na versao mobile*/
 }
 
  /* 

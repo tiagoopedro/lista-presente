@@ -9,18 +9,18 @@ Desktop: 992px até 1200px
 Grandes telas: acima de 1200px
 */
 
-@media screen and (max-width: 768px) {/*celular tamanho deve ser 450 x 914*/
+@media screen and (max-width: 768px) {/*celular tamanho deve ser 400 x 768*/
     body{ 
         background-image: url('imagens/background-celular.jpg');
     }
     iframe {
         margin: 20px 0px 33px;
-        height: 400px; /*aumentei */
+        height: 281px; /*ajustando */
         width: 400px;
      }
      #qr {
-        height: 200px; /*testando*/
-        width: 200px;
+        height: 220px; /*testando*/
+        width: 220px;
      }
      main > p { 
         color: #888803;
