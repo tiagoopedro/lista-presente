@@ -8,15 +8,17 @@
     <link rel="shortcut icon" href="favicon.io" type="image/x-icon">
     <title>Lista de Presentes</title>
 </head>
-<body>
+
+<body onresize="mudouTamanho()">
     <main>
     <header>
         <h1>Lista de Presentes Online</h1>
-    <nav>
+        <i id="burguer" class="Icons8" onclick="clickMenu()"><img src="imagens/icone-hamburguer.png"></i>
+        <nav id="itens">
         <a href="https://sites.icasei.com.br/thaysaetiago/home"><i>Home</i></a>
         <a href="cerimonia.html"><i>Cerimônia</i></a>
         <a href="recepcao.html"><i>Recepção</i></a>
-    </nav>
+        </nav>
     </header>
     
 
@@ -254,6 +256,26 @@
     </main>  
     
     <footer>&reg Site criado exclusivamente para o evento</footer>  
+
+    <script>
+
+        function mudouTamanho() { /*se a janela for maior q 768 o menu será exibido, se for menor ele vai ser escondido*/
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
+        function clickMenu() { 
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } 
+            else {
+                itens.style.display = 'block'
+            } 
+        }
+    </script>
     
 </body>
 </html>

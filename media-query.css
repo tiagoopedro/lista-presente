@@ -9,20 +9,30 @@ Desktop: 992px até 1200px
 Grandes telas: acima de 1200px
 */
 
-@media screen and (max-width: 767px) {/*celular*/
+@media screen and (max-width: 768px) {/*celular tamanho deve ser 450 x 914*/
     body{ 
         background-image: url('imagens/background-celular.jpg');
     }
-
     iframe {
         margin: 20px 0px 33px;
-        width: 450px;
+        height: 250px; /*reduzi a altura para ver se fica legal */
+        width: 300px;
+     }
+     #qr {
+        height: 300px; /*testando*/
+        width: 300px;
      }
      main > p { 
         color: #888803;
     }
-    
-   
+    nav > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    background-color: var(--cor1);
+    color: var(--cor3);
+    }
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {/*tablet*/
     body{ 
@@ -32,6 +42,15 @@ Grandes telas: acima de 1200px
         margin: 20px 0px 33px;
         width: 750px;
      }
-  
-     
+     i#burguer {
+        display: none;
+    }     
+     nav {
+        display: block; 
+    }
+ }
+ @media screen and (min-width: 992px) {
+    i#burguer {
+        display: none;
+    } 
  }
