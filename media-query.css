@@ -15,12 +15,12 @@ Grandes telas: acima de 1200px
     }
     iframe {
         margin: 20px 0px 33px;
-        height: 250px; /*reduzi a altura para ver se fica legal */
-        width: 300px;
+        height: 400px; /*aumentei */
+        width: 400px;
      }
      #qr {
-        height: 300px; /*testando*/
-        width: 300px;
+        height: 200px; /*testando*/
+        width: 200px;
      }
      main > p { 
         color: #888803;
