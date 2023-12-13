@@ -15,11 +15,11 @@ Grandes telas: acima de 1200px
     }
     iframe {
         margin: 20px 0px 33px;
-        height: 335px; /*era 330 */
+        height: 335px; 
         width: 400px;
      }
      #qr {
-        height: 220px; /*testando*/
+        height: 220px; 
         width: 220px;
      }
      main > p { 
@@ -41,7 +41,7 @@ Grandes telas: acima de 1200px
     iframe {
         margin: 20px 0px 33px;
         width: 750px;
-        height: 360px; /*era 380*/
+        height: 350px; 
      }
      i#burguer {
         display: none;
