@@ -106,6 +106,13 @@ div {
 div > p {
     padding: 15px;
 }
+#pix {
+    text-align: justify;
+}
+#agradecimento {
+    font-family: abuget;
+    font-size: 4em;
+}
 img {
     display: block;
     margin: auto;
