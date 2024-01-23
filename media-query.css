@@ -13,6 +13,9 @@ Grandes telas: acima de 1200px
     body{ 
         background-image: url('imagens/background-celular.jpg');
     }
+    main > h1 {
+        background-image: linear-gradient(to right, #e4e4d800,#e4e4d893, var(--cor5), var(--cor1), #e4e4d800); 
+    }
     iframe {
         margin: 20px 0px 33px;
         height: 335px; 
@@ -35,7 +38,7 @@ Grandes telas: acima de 1200px
     }
     #agradecimento {
         border-radius: 30px;
-        background-image: linear-gradient(to right, #e4e4d86e,var(--cor1), var(--cor5), var(--cor1), #e4e4d86e); 
+        background-image: linear-gradient(to right, #e4e4d800,#e4e4d893, var(--cor5), var(--cor1), #e4e4d800); 
     }
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {/*tablet*/
