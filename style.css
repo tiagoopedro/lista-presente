@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-/*@import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap'); sugestao de fonte WHISPER*/
 
 
 
@@ -26,10 +25,6 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-/*
-AJUSTAR O TAMANHO DOS IFRAMES PARA CELULAR MEDIA QUERY
-E O FOOTER FICOU ERRADO NOS CELULARES
-*/
 body {
     background-image: url('imagens/background.jpg');
     background-repeat: no-repeat;

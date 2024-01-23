@@ -33,6 +33,10 @@ Grandes telas: acima de 1200px
     background-color: var(--cor1);
     color: var(--cor3);
     }
+    #agradecimento {
+        border-radius: 30px;
+        background-image: linear-gradient(to right, #e4e4d86e,var(--cor1), var(--cor5), var(--cor1), #e4e4d86e); 
+    }
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {/*tablet*/
     body{ 
