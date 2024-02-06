@@ -41,7 +41,7 @@ Grandes telas: acima de 1200px
         background-image: linear-gradient(to right, #e4e4d800,#e4e4d893, var(--cor5), var(--cor1), #e4e4d800); 
     }
     #dicas {
-        width: 450px;
+        width: 400px;
     }
     #dicas > p {        
         padding-left: 8px;
@@ -69,7 +69,7 @@ Grandes telas: acima de 1200px
         display: block; 
     }
     #dicas {
-        width: 750px;
+        width: 700px;
     }
     #dicas > p {        
         padding-left: 8px;
