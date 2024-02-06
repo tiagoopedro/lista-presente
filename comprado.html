@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-query.css">
+    <link rel="shortcut icon" href="favicon.io" type="image/x-icon">
+    <title>Pagamento</title>
+</head>
+
+<body onresize="mudouTamanho()">
+    <main>
+        <header>
+            <h1>Thaysa e Tiago</h1>
+            <i id="burguer" class="Icons8" onclick="clickMenu()"><img src="imagens/icone-hamburguer.png"></i>
+            <nav id="itens">
+                <a href="https://sites.icasei.com.br/thaysaetiago/home"><i>Home</i></a>
+                <a href="index.html"><i>Lista de Presentes Online</i></a>
+                <a href="cerimonia.html"><i>Cerimônia</i></a>
+                <a href="recepcao.html"><i>Recepção</i></a>
+            </nav>
+        </header>
+        
+            <h1>Este item já foi Comprado! </h1>
+            <img id="x" src="imagens/x.png" alt=""> <br>
+            
+            <p><a href="index.html">Clique aqui para voltar para a Lista de Presentes</a> </p>
+            
+    </main>
+
+     
+
+    <script>
+
+        function mudouTamanho() { 
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
+        function clickMenu() { 
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } 
+            else {
+                itens.style.display = 'block'
+            } 
+        }
+    </script>
+</body>
+</html>
