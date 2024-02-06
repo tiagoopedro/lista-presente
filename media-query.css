@@ -40,7 +40,15 @@ Grandes telas: acima de 1200px
         border-radius: 30px;
         background-image: linear-gradient(to right, #e4e4d800,#e4e4d893, var(--cor5), var(--cor1), #e4e4d800); 
     }
+    #dicas {
+        width: 450px;
+    }
+    #dicas > p {        
+        padding-left: 8px;
+    }
 }
+
+
 @media screen and (min-width: 768px) and (max-width: 992px) {/*tablet*/
     body{ 
         background-image: url('imagens/background-tablet.jpg');
@@ -60,12 +68,21 @@ Grandes telas: acima de 1200px
      nav {
         display: block; 
     }
+    #dicas {
+        width: 750px;
+    }
+    #dicas > p {        
+        padding-left: 8px;
+    }
+
  }
+
+
  @media screen and (min-width: 992px) {
     nav {
         display: block; /*mostrar o nav e esconder o i#burguer*/
     }
     i#burguer {
         display: none;
-    } 
+    }
  }
