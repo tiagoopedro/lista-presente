@@ -104,6 +104,7 @@ div > p {
 }
 #dicas {
     width: 1000px;
+    padding-top: 10px;
     background-image: linear-gradient(to right, #e4e4d86e,var(--cor1), var(--cor5), var(--cor1), #e4e4d86e);
 }
 #dicas > p {
