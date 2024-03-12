@@ -46,6 +46,9 @@ Grandes telas: acima de 1200px
     #dicas > p {        
         padding-left: 8px;
     }
+    #erro {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.164),rgba(0, 0, 0, 0.164), rgba(0, 0, 0, 0.164), var(--cor1), #e4e4d800); 
+    }
 }
 
 

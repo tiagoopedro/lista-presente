@@ -80,9 +80,9 @@ main {
     border-radius: 10px;
 }
 main > h1 {
-   font-family: Abuget;
-   font-weight: lighter;
-   font-size: 50px;
+    font-family: Abuget;
+    font-weight: lighter;
+    font-size: 50px;
     margin: auto;
     max-width: 1280px;
     color:var(--cor3);
